@@ -14,6 +14,6 @@
 			<option value="saar">Saar</option>
 			<option value="frits">frits</option>
 		</select>
-		<input class="booking__button" type="submit" value="insert"></input>
+		<input class="booking__button" type="submit" value="insert">Reserveren</input>
 	</form>
 </section>
