@@ -12,6 +12,7 @@
 	<body class="body">
 		<?php require_once'build/sections/header.php' ?>
 		<?php require_once'build/sections/home.php' ?>
+		<?php require_once'build/sections/booking.php' ?>
 		<?php require_once'build/sections/footer.php' ?>
 		<!-- <script src="build/js/navigation.js"></script> -->
 	</body>
