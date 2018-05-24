@@ -1,6 +1,5 @@
 <section class="booking">
 	<form
-		action=""
 		id="booking-form"
 		name="booking-form"
 		class="booking__form"
@@ -14,5 +13,6 @@
 			<option value="saar">Saar</option>
 			<option value="frits">frits</option>
 		</select>
+		<button class="booking__button" action=""></button>
 	</form>
 </section>
