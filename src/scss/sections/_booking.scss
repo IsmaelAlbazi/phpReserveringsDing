@@ -1,14 +1,30 @@
 .booking {
-	width: 80%;
-	height: 90vh;
-	padding: 40px;
-	background-color: hotpink;
+	width: 100%;
+	padding: 20px;
+	background-color: $grey;
+	border-bottom: solid 3px $yellow;
 
 	&__form {
-
+		display: flex;
+		justify-content: space-around;
 	}
-	
-	&__input {
 
+	&__input {
+		height: 30px;
+		padding: 0 0 0 15px;
+		text-transform: capitalize;
+		border-radius: 3px;
+		border: 2px solid $yellow;
+	}
+
+	&__button {
+		height: 30px;
+		padding: 0 15px;
+		background-color: $yellow;
+		font-weight: 500;
+		color: $white;
+		border: solid 2px $yellow;
+		border-radius: 3px;
+		cursor: pointer;
 	}
 }

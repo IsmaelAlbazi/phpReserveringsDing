@@ -13,6 +13,6 @@
 			<option value="saar">Saar</option>
 			<option value="frits">frits</option>
 		</select>
-		<button class="booking__button" action=""></button>
+		<button class="booking__button" action="">Reserveren</button>
 	</form>
 </section>
