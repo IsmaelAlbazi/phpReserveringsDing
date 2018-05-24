@@ -13,6 +13,7 @@
 		<?php require_once'build/sections/header.php' ?>
 		<?php require_once'build/sections/home.php' ?>
 		<?php require_once'build/sections/footer.php' ?>
+		<?php include 'src/php/config.php' ?>
 		<!-- <script src="build/js/navigation.js"></script> -->
 	</body>
 </html>
