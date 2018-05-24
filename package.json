@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonathanGarion/website.git"
+    "url": "git+https://github.com/IsmaelAlbazi/phpReserveringsDing.git"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -20,5 +20,8 @@
     "gulp-sass": "^3.1.0",
     "require-dir": "^0.3.2",
     "run-sequence": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-watch": "^5.0.0"
   }
 }
