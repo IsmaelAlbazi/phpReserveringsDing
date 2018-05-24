@@ -1,0 +1,110 @@
+.navigation {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	// left: 100%;
+	// width: 18px;
+	margin: 40px;
+
+	&--fixed {
+		position: fixed;
+		z-index: 1;
+	}
+
+	&--bottom {
+		display: flex;
+		right: 0;
+		margin: 100px 0 20px;
+		position: unset;
+		justify-content: center;
+
+		.menu {
+			flex-direction: row;
+
+			&__item {
+				border: none;
+				background-color: $white;
+				margin: 0 8px;
+				&--active {
+					background-color: $pink;
+				}
+			}
+			&__arrow {
+				display: none;
+			}
+		}
+
+		@include mq('phone-wide'){
+			display: flex;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 65vh;
+			z-index: 11;
+		}
+	}
+
+	@include mq('phone-wide'){
+		display: none;
+	}
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+
+	&__arrow {
+		width: 1px;
+		height: 40px;
+		background-color: $grey;
+		margin: 8px 0;
+
+		&:before, &:after {
+			width: 1px;
+			height: 15px;
+			background-color: $grey;
+			content: "";
+			display: inline-block;
+			position: absolute;
+		}
+		&:before {
+			transform: translate(-5px, -3px) rotate(45deg) ;
+		}
+		&:after {
+			transform: translate(5px, -3px) rotate(-45deg) ;
+		}
+		&--down {
+			&:before {
+				transform: translate(-5px, 28px) rotate(-45deg) ;
+			}
+			&:after {
+				transform: translate(5px, 28px) rotate(45deg) ;
+			}
+		}
+	}
+	&__item {
+		width: 15px;
+		height: 15px;
+		border: solid 1px $grey;
+		border-radius: 50%;
+		margin: 8px 0;
+		overflow: hidden;
+		cursor: pointer;
+
+		&:hover {
+			border: solid 1px $pink;
+			background-color: $pink;
+		}
+		&--active {
+			width: 18px;
+			height: 18px;
+			border: solid 1px $pink;
+			background-color: $pink;
+
+		}
+	}
+}
