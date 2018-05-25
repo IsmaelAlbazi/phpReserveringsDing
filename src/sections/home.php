@@ -2,7 +2,7 @@
 	<h1 class="home__heading">
 		Php reserveringssysteem test
 	</h1>
-	<div class="home__content">
+	<!-- <div class="home__content">
 		<p class="home__paragraph">
 			Lorem Ipsum is simply dummy text of the printing 
 			and typesetting industry. Lorem Ipsum has been 
@@ -17,5 +17,5 @@
 			recently with desktop publishing software like 
 			Aldus PageMaker including versions of Lorem Ipsum.
 		</p>
-	</div>
+	</div> -->
 </section>
