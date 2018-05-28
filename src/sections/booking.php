@@ -17,3 +17,6 @@
 		<input class="booking__button" type="submit" value="Reserveren"></input>
 	</form>
 </section>
+<?php
+// echo date('Y-m-d');
+?>
